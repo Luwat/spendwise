@@ -14,16 +14,16 @@ import Link from "next/link";
 
 const Header = () => {
   return (
-    <Box as={"header"} w="vw" bg="gray.800" px="8" py="4" color="white" borderBottom={"1px #fff solid"}>
+    <Box as={"header"} w="vw" px="8" py="4" color="white" borderBottom={"1px #234844 solid"}>
       <Flex justify={"space-between"}>
         <HStack>
-          <Icon as={SpendwiseIcon} />{" "}
+          <Icon as={SpendwiseIcon} />
           <Text ml="4" fontWeight="bolder" fontSize="2xl">
             Spendwise
           </Text>
         </HStack>
         <HStack as="section" spaceX="5">
-          <HStack as={"ul"} listStyle={"none"} spaceX={"5"} align={"center"}>
+          <HStack as={"ul"} listStyle={"none"} spaceX={"5"} align={"center"} fontWeight="medium">
           <li>
             <Link href={"#"}>Dashboard</Link>
           </li>
