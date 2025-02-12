@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import TransactionChart from "@/components/TransactionChart";
 import TransactionTable from "@/components/TransactionTable";
 import { Box } from "@chakra-ui/react";
 
@@ -7,6 +8,7 @@ export default function Home() {
     <Box as={"section"} bg="#122121" minHeight="vh" overflow="hidden">
       <Header />
       <TransactionTable />
+      <TransactionChart />
     </Box>
   );
 }
